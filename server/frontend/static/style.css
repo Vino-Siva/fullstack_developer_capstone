@@ -13,6 +13,12 @@ img {
   margin-bottom: 1%;
 }
 
+.contact-img-container {
+  width: 100%;
+  align-self: center;
+  opacity: 0.35;
+}
+
 .row {
   display: flex;
   flex: 1;

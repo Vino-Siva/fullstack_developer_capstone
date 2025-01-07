@@ -1,31 +1,107 @@
 <html>
-<head>
-  <!-- Link the style sheet here -->
-    <link rel="stylesheet" href="/static/style.css">
-    <link rel="stylesheet" href="/static/bootstrap.min.css">
-</head>
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
-    <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Dealerships</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
-          </li>
-        </ul>
+  <head>
+    <!-- Link the style sheet here -->
+      <link rel="stylesheet" href="/static/style.css">
+      <link rel="stylesheet" href="/static/bootstrap.min.css">
+  </head>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+      <div class="container-fluid">
+        <h2 style="padding-right: 5%;">Dealerships</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" href="/about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: larger;" href="/contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-
-</div>
+    </nav>
+    <div class="card text-bg-dark">
+      <div class="contact-img-container">
+          <img src="/static/car_dealership.jpg" class="card-img" alt="..." />
+      </div>
+      <div class="card-img-overlay">
+          <div class="flex-column d-flex" style="padding-top: 4rem;">
+            <div class="row flex-grow-1">
+              <div class="card text-bg-dark mb-3 p-0" style="max-width: 28rem">
+                  <div class="card-header">Best Car Downtown</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Downtown City Branch</h5>
+                    <p class="card-text">
+                      <b>Address:</b> 123 Main Street, Downtown City, ST 54321
+                    </p>
+                    <p class="card-text"><b>Phone:</b> (555) 123-4567</p>
+                    <p class="card-text">
+                      <b>Email:</b> <a href="mailto:downtown@bestcardealership.com" class="link-dark">downtown@bestcardealership.com</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="card text-bg-dark mb-3 p-0" style="max-width: 28rem">
+                  <div class="card-header">Best Car Suburban</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Suburban Heights Branch</h5>
+                    <p class="card-text">
+                      <b>Address:</b> 456 Elm Avenue, Suburban Heights, ST 67890
+                    </p>
+                    <p class="card-text"><b>Phone:</b> (555) 234-5678</p>
+                    <p class="card-text">
+                      <b>Email:</b>
+                      <a
+                        href="mailto:suburban@bestcardealership.com"
+                        class="link-dark"
+                        >suburban@bestcardealership.com</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div class="card text-bg-dark mb-3 p-0" style="max-width: 28rem">
+                  <div class="card-header">Best Car Coastal</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Coastal View Branch</h5>
+                    <p class="card-text">
+                      <b>Address:</b> 789 Ocean Drive, Coastal View, ST 11223
+                    </p>
+                    <p class="card-text"><b>Phone:</b> (555) 345-6789</p>
+                    <p class="card-text">
+                      <b>Email:</b>
+                      <a
+                        href="mailto:coastal@bestcardealership.com"
+                        class="link-dark"
+                        >coastal@bestcardealership.com</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div class="card text-bg-dark mb-3 p-0" style="max-width: 28rem">
+                  <div class="card-header">Best Car Mountain Ridge</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Mountain Ridge Branch</h5>
+                    <p class="card-text">
+                      <b>Address:</b> 321 Summit Lane, Mountain Ridge, ST 33445
+                    </p>
+                    <p class="card-text"><b>Phone:</b> (555) 456-7890</p>
+                    <p class="card-text">
+                      <b>Email:</b>
+                      <a
+                        href="mailto:mountainridge@bestcardealership.com"
+                        class="link-dark"
+                        >mountainridge@bestcardealership.com</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              
+          </div>
+      </div>
+  </div>
 </html>
