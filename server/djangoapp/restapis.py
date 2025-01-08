@@ -52,3 +52,5 @@ def post_review(data_dict):
         return response.json()
     except requests.RequestException as err:
         print(f"Network exception occurred: {err}")
+    finally:
+        print("post_review call complete!")
