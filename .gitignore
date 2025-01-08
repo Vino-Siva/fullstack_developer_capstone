@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+djangoapp/__init__.py
 
 # C extensions
 *.so
@@ -36,6 +37,9 @@ MANIFEST
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
+
+# Initialize environment variables
+.DS_Store
 
 # Unit test / coverage reports
 htmlcov/
